@@ -1,6 +1,7 @@
 # ExtractMsgContent
 This PowerShell script extracts content from *.msg files and Active Directory, then writes that data to a CSV output file
 
+##Overview
 
 1.	The script will iterate over msg files in a specified folder, defined by $msgPath
 2.	Outlook must be closed… the script uses Outlook via a com object
@@ -12,7 +13,7 @@ This PowerShell script extracts content from *.msg files and Active Directory, t
 8.	The array hash is exported to a .csv file
 
 
-Sources:
+##Sources
 
 https://mcpmag.com/articles/2017/06/08/creating-csv-files-with-powershell.aspx
 http://vcloud-lab.com/entries/powershell/microsoft-powershell-generate-random-anything-filename--temppath--guid--password-
