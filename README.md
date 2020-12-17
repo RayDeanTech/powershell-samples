@@ -1,7 +1,7 @@
 # ExtractMsgContent
 This PowerShell script extracts content from *.msg files and Active Directory, then writes that data to a CSV output file
 
-##Overview
+## Overview
 
 1.	The script will iterate over msg files in a specified folder, defined by $msgPath
 2.	Outlook must be closed… the script uses Outlook via a com object
@@ -13,14 +13,14 @@ This PowerShell script extracts content from *.msg files and Active Directory, t
 8.	The array hash is exported to a .csv file
 
 
-##Sources
+## Sources
 
-https://mcpmag.com/articles/2017/06/08/creating-csv-files-with-powershell.aspx
-http://vcloud-lab.com/entries/powershell/microsoft-powershell-generate-random-anything-filename--temppath--guid--password-
-https://stackoverflow.com/questions/24074205/convertto-csv-output-without-quotes
-https://stackoverflow.com/questions/47264561/how-to-get-email-address-from-the-emails-inside-an-oulook-folder-via-powershell
-https://stackoverflow.com/questions/49693850/is-it-possible-to-extract-recipient-email-address-from-a-msg-file
-https://stackoverflow.com/questions/43618494/get-contents-of-msg-file-into-string
-https://stackoverflow.com/questions/17154825/renaming-msg-files-using-powershell
-https://stackoverflow.com/questions/37932647/parse-body-of-msg-email-file
-https://stackoverflow.com/questions/1954203/timestamp-on-file-name-using-powershell
+- https://mcpmag.com/articles/2017/06/08/creating-csv-files-with-powershell.aspx
+- http://vcloud-lab.com/entries/powershell/microsoft-powershell-generate-random-anything-filename--temppath--guid--password-
+- https://stackoverflow.com/questions/24074205/convertto-csv-output-without-quotes
+- https://stackoverflow.com/questions/47264561/how-to-get-email-address-from-the-emails-inside-an-oulook-folder-via-powershell
+- https://stackoverflow.com/questions/49693850/is-it-possible-to-extract-recipient-email-address-from-a-msg-file
+- https://stackoverflow.com/questions/43618494/get-contents-of-msg-file-into-string
+- https://stackoverflow.com/questions/17154825/renaming-msg-files-using-powershell
+- https://stackoverflow.com/questions/37932647/parse-body-of-msg-email-file
+- https://stackoverflow.com/questions/1954203/timestamp-on-file-name-using-powershell
